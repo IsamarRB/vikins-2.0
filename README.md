@@ -112,20 +112,13 @@ Modifica el constructor de `Saxon`, hazlo que extienda de `Soldier` y reimplemen
 - debe recibir la **propiedad `health`** como **1er argumento**
 - debe recibir la **propiedad `strength`** como **2nd argumento**
 - - debe recibir la **propiedad `msg`** como **3er argumento**
+- 
 #### método `attack()`
 (Este método se **hereda** de `Soldier`, no es necesario reimplementarlo)
 
 - debe ser una función
 - debe recibir **0 arguments**
 - debe devolver **la propiedad `strength` del `Soldier`**
-
-
-#### `receiveDamage()` method
-
-
-- should be a function
-- should receive **1 argument** (the damage)
-- should remove the received damage from the `health` property
 
 #### método `receiveDamage()`
 
